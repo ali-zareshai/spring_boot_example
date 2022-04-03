@@ -9,7 +9,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import java.util.Collections;
 
 @SpringBootApplication
-@ComponentScan({"com.example.springdemo1.controller"})
+@ComponentScan({"com.example.springdemo1.*"})
 public class Springdemo1Application {
     @Autowired
     JdbcTemplate jdbcTemplate;
